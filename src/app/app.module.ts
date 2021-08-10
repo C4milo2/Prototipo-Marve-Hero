@@ -6,7 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BodyComponent } from './body/body.component';
 import { HttpClientModule } from '@angular/common/http';
-import { SearchComponent } from './search/search.component';
+
 
 
 
@@ -16,14 +16,13 @@ import { SearchComponent } from './search/search.component';
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    SearchComponent,
-    
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
