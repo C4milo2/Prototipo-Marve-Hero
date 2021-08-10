@@ -1,0 +1,16 @@
+#logo {
+    position: relative;
+    width: 100px;
+}
+
+#ubi {
+    position: relative;
+    width: 50px;
+    /* bottom: 15px; */
+    right: 4px;
+}
+
+#ubione {
+    position: relative;
+    margin-top: 15px;
+}
