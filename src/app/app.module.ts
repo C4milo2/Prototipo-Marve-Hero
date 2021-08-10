@@ -11,6 +11,8 @@ import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './component/home/home.component';
 import { ComicsComponent } from './component/comics/comics.component';
 import { FigurasComponent } from './component/figuras/figuras.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HeroeService } from './services/Heroes.service';
 
 
 @NgModule({
@@ -26,8 +28,6 @@ import { FigurasComponent } from './component/figuras/figuras.component';
     APP_ROUTING
   ],
   providers: [
-
-  
   ],
   bootstrap: [AppComponent]
 })
